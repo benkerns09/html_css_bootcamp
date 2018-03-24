@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootcamp Startup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="startup.css"><!--This will override the CSS above-->
+</head>
+<body>
+    <!--These sections are basically the rows provided on the design we are trying to recreate. They represent the rows we see-->
+    <div class="section1"><!--This is the big background-->
+        <div class="section-container"><!--This will have a hard-coded width of 960px and will be centered in section1-->
+            <div class="navbar"><!--This keeps the three tags at the top by themselves-->
+                <a href="#">Home</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="tagline">
+                <img src="DgtlCrfts/img/logo.png" />
+                <h1>DgtlCrfts</h1>
+                <h4>Turnkey Solutions for Synergistic, <br /> Distributed Systems</h4>
+            </div>
+            <div class="down-arrow">
+                <img src="DgtlCrfts/img/down_arrow.png" />
+            </div>
+        </div>
+    </div> 
+    <div class="section2">
+        <div class="container"><!--Rows are put into "containers"...Bootstrap is already being put to work with whatever text I put into this container. It will also use "responsive design"..container will take up the entire width-->
+            <div class="row"><!--Row has no visibility of how much gutter on left and right.-->
+                <div class="col-md-4 col-xs-12 first"><!--THe "md" means medium. What we are saying here is that for medium screens and bigger, I want it to be column 4. But for extra small screens, I want it to be the full width of the row. THis is a way to increase compatibility with different (ex: mobile) devices.-->
+                    First Column
+                </div>
+                <div class="col-md-4 col-xs-12 second">
+                    Second Column
+                </div>
+                <div class="col-md-4 col-xs-12 third">
+                    Fourth Column
+                </div>
+            </div>
+        </div>
+    <div class="section3"></div>
+</body>
+</html>
