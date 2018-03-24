@@ -1,0 +1,39 @@
+.section1 {
+    height: 600px;
+    background-image: url("DgtlCrfts/img/atl.png");
+    background-size: cover;
+}
+
+.top-navbar {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.top-navbar a {
+    color: #FFFFFF
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.circle-icon {
+    border: 7px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    font-size: 53px;
+    padding-left: 21px;
+}
+
+.circle-icon.first {
+    border-color: green;
+}
+
+.circle-icon.second {
+    border-color: blue;
+}
+
+.circle-icon.third {
+    border-color: red;
+}

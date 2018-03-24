@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Startup w/Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="startupbootstrap.css"><!--This will override the CSS above-->
+
+</head>
+<body>
+    <div class="section1"><!--This is different from startup.html because we don't have that hard-coded width under section-container-->
+        <div class="container"><!--THe difference between "container" and "container-fluid"..container will center with the gutter, fluid will just make the div content 100% wide-->
+            <div class="row"><!--Adam saw three rows to start, but there are different ways to look at this. Also, remember that the only thing allowed in a row is a column. So we need to decide on columns at this point-->
+                <div class="col-6 ml-auto top-navbar"><!--this ml auto means margin left auto..just gives you some space...if I did mr auto with it, it would be centered-->
+                    <a href="#">Home</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="DgtlCrfts/img/logo.png" />
+                    <h1>DgtlCrfts</h1>
+                    <h4>Turnkey Solutions for Synergistic, <br /> Distributed Systems</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12"><!--This is for the down arrow. WE know we can center an image with text-align center-->
+                    <img src="DgtlCrfts/img/down_arrow.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="container">
+            <div class="row"><!--Make sure the only thing inside this row is a col...never put something line H1 here-->
+                <div class="col-12">
+                    <h1>The future of tomorrow is today.</h1><!--This h1 is ok since its inside of the col-12 class-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"><!--We are giving a div to the icon and the text underneath-->
+                    <div class="circle-icon first">@</div>
+                    <div class="title">Title 1</div>
+                    <div class="content">dafjdkdjakgjdkajfdkj kdjfk dfj</div>
+                </div>
+                <div class="col-4">
+                    <div class="circle-icon second">#</div>
+                    <div class="title">Title 2</div>
+                    <div class="content">jkfdj kjfkdja djfijdak djfkdj</div>
+                </div>
+                <div class="col-4">
+                    <div class="circle-icon third">$</div>
+                    <div class="title">Title 3</div>
+                    <div class="content">dlafj ldkfl dfla</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section3"><!--Decided not to use bootsrap for this, because it's soo easy to do without. Just centering text in a div-->
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="copyright">
+            <p>2018 ™ DigitalCrafts</p>
+        </div>
+    </div>
+</body>
+</html>
